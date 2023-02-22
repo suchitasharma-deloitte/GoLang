@@ -1,0 +1,4 @@
+Programs written in Go can easily be compiled for a wide variety of target operating systems such as Windows, macOS, and Linux by using the GOARCH and GOOS environmental variables. These represent the compilation architecture and the name of the target operating system respectively, and are set to your host compilation architecture (GOHOSTARCH) and operating system (GOHOSTOS) by default.
+Golang comes with the go tool, which manages Go source code. It has several commands including doc, build, test, and run.
+
+The go build command compiles the packages named by the import paths, along with their dependencies into an executable. It it does not install the executable.
